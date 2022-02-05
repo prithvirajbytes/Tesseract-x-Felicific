@@ -90,8 +90,9 @@
         var lgxCounter = $('.lgx-counter');
         if (lgxCounter.length) {
             lgxCounter.counterUp({
-                delay: 10,
+                delay: 5,
                 time: 5000
+
             });
         }
         /*=========================================================================
@@ -427,14 +428,14 @@
             if ($('.map-canvas-default').length) {
                 $(".map-canvas-default").googleMap({
                     zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
+                    coords: [22.689680, 88.378850], // Map center (optional)
                     type: "ROADMAP", // Map type (optional),
                     mouseZoom: false
                 });
 
                 //for marker
                 $(".map-canvas-default").addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
+                    coords: [22.689680, 88.378850], // GPS coords
                     title: 'Eventpoint',
                     text: '121 King St, Melbourne VIC 3000, Australia',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
@@ -445,14 +446,14 @@
             if ($('.map-canvas-dark').length) {
                 $(".map-canvas-dark").googleMap({
                     zoom: 8, // Initial zoom level (optiona
-                    coords: [40.7127, 74.0059], // Map center (optional)
+                    coords: [22.689680, 88.378850], // Map center (optional)
                     type: "HYBRID", // Map type (optional),
                     mouseZoom: false
                 });
 
                 //for marker
                 $(".map-canvas-dark").addMarker({
-                    coords: [40.7127, 74.0059], // GPS coords
+                    coords: [22.689680, 88.378850], // GPS coords
                     title: 'Eventpoint',
                     text: '121 King St, Melbourne VIC 3000, Australia',
                     icon: lgx_path + '/assets/img/map/map-icon.png'
